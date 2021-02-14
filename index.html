@@ -1,46 +1,73 @@
 <!DOCTYPE html>
-<html lang = "en">
-  <head>
-    
-    <link rel="stylesheet" href="stylesheet.css">
-        <meta charset="utf-8">
-    <title>Assignment_Abrar</title>
-  </head>
-  <body> 
+<html>
+<head>
+<title> Assignment_Abrar</title>
+<style>
+.grid-container {
+  display: grid;
+  grid-gap: 5px;
+  background-color: lightblue;
+  padding: 5px;
+ 
+}
 
-<div class=grid-container">
-<div class="item1"><header><h1>Mount Everest </h1></header></div>
-<div class="item2">validators
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
 
-<nav>
+.item1 {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
 
-<p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fabrar76.github.io%2F">html </a>
-
-</nav></div>
-<div class="item3><h2>About Mount Everest</h2><br>
-<main><p>Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. The China–Nepal border runs across its summit point.Its elevation (snow height) of 8,848.86 m (29,031.7 ft) was most recently established in 2020 by the Nepali and Chinese authorities. Mount Everest attracts many climbers, some of them highly experienced mountaineers</p></main></div>
-<div class="item4"><figure>
-<figcaption> luca----</figcaption>
-
-</figure>
+.item2 {
+  grid-column: 3;
+  grid-row: 2 / span 2;
   
-
-<figure>
   
-  <figcaption> Papa----</figcaption>
+}
+.item3 {
+height:150px;
+
+}
+
+.item5 {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+  height:200px;
+  column-width: 480px;
+  font-size: 23px;
+}
+
+.item6 {
+  grid-column: 1 / span 3;
+  grid-row: 4;
+  
+  }
+  
+</style>
+</head>
+<body>
 
 
-</figure>
-
+<div class="grid-container">
+  <div class="grid-item item1">Shandur Polo Festival</div>
+  <div class="grid-item item2">sidebar</div>
+  <div class="grid-item item3">box1</div>  
+  <div class="grid-item item4">box2</div>
+  <div class="grid-item item5">
+  Shandur polo festival is one of the big festivals held from 7 to 9 July every year in Pakistan. Shandur pass has a beautiful polo ground where a unique free-style polo is played between different teams of the region.<br>
+  This polo ground is considered to be the highest polo ground in the world at 3,700meter. Festival includes folk music, folk dance, traditional sports and a camping village is set up on the pass for the tourists.The festival provides an amazing cultural experience.
+  </div>
+  <div class="grid-item item6">Developer:<br>
+  Abrar Ahmed  
+  </div>
 </div>
 
-<div class="item5"><footer><Author <br>
-Abrar Ahmed</footer></div>
 
-</div>
 
-    
-                
-  </body>
+</body>
 </html>
-
